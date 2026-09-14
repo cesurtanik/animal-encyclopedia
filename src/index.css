@@ -176,10 +176,8 @@ a {
 }
 
 .animal-card:hover {
-  .animal-card {
   animation: cardFadeIn 0.5s ease;
 }
-
 @keyframes cardFadeIn {
   from {
     opacity: 0;
@@ -191,9 +189,7 @@ a {
     transform: translateY(0);
   }
 }
-  transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(30, 60, 40, 0.12);
-}
+  
 
 .animal-image {
   height: 230px;
